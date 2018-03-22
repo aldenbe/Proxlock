@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">ProxLock</string>
+
+    <string name="bt_not_enabled_leaving">User declined to enable Bluetooth, exiting Bluetooth Advertisements.</string>
+    <string name="activity_main_title">Nearby Devices</string>
+    <string name="broadcast_device">Activate Unlocking</string>
+
+    <string name="bt_not_supported">Bluetooth is not supported on this device.</string>
+    <string name="bt_ads_not_supported">Bluetooth Advertisements are not supported on this device.</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="start_error_prefix">Start Advertising failed: </string>
+    <string name="start_error_already_started">already started.</string>
+    <string name="start_error_too_large">data packet exceeded 31 Byte limit.</string>
+    <string name="start_error_unsupported">not supported on this device.</string>
+    <string name="start_error_internal">internal error.</string>
+    <string name="start_error_too_many">too many advertisers.</string>
+    <string name="bt_null">Error: Bluetooth object null</string>
+    <string name="last_seen">Last Seen:</string>
+    <string name="just_now">just now</string>
+    <string name="minute_ago">minute ago</string>
+    <string name="hour_ago">hour ago</string>
+    <string name="seconds_ago">seconds ago</string>
+    <string name="minutes_ago">minutes ago</string>
+    <string name="hours_ago">hours ago</string>
+    <string name="empty_list">No devices found - refresh to try again.</string>
+    <string name="seconds">seconds.</string>
+    <string name="scan_start_toast">Scanning for</string>
+    <string name="already_scanning">Scanning already started.</string>
+    <string name="no_name">(no name)</string>
+    <string name="start_error_unknown">unknown error</string>
+    <string name="advertising_timedout">Advertising stopped due to timeout.</string>
+    <string name="ble_uuid">CDB7950D-73F1-4D4D-8E47-C090502DBD63</string>
+    <string name="title_activity_peripherals">Peripherals</string>
+    <string name="title_activity_peripheral">Peripheral</string>
+    <string name="notify">Notify</string>
+
+    <!-- Bluetooth -->
+    <string name="bluetoothNotSupported">BLE Peripheral Simulator closing: Bluetooth Not Supported</string>
+    <string name="bluetoothNotEnabled">BLE Peripheral Simulator closing: Bluetooth is Not Enabled</string>
+    <string name="bluetoothAdvertisingNotSupported">BLE Peripheral Simulator closing: BLE Advertising Not Supported</string>
+    <string name="bluetoothDeviceNotConnected">Not connected to any Devices</string>
+
+    <!-- Adv -->
+    <string name="label_advertisingStatus">Advertising Status</string>
+    <string name="status_advertising">Advertising (Keep Screen On)</string>
+    <string name="status_notAdvertising">Not Advertising</string>
+    <string name="status_advDataTooLarge">Not Advertising. Advertisement is larger than 31 bytes.</string>
+    <string name="status_advFeatureUnsupported">Not Advertising. Advertising not supported.</string>
+    <string name="status_advInternalError">Not Advertising. Internal error occurred.</string>
+    <string name="status_advTooManyAdvertisers">Not Advertising. No advertising instance is available.</string>
+
+    <!-- Connection -->
+    <string name="label_connectionStatus">Connection Status</string>
+    <string name="status_devicesConnected">Devices Connected:</string>
+    <string name="status_errorWhenConnecting">An error occurred when connecting to a device. Error Code</string>
+
+    <!-- Battery Service -->
+    <string name="batteryService_name">Battery Service</string>
+    <string name="batteryLevelTooHigh">Batter Level shouldn\'t exceed 100</string>
+    <string name="batteryLevelIncorrect">Please enter a number between 0 and 100</string>
+
+    <!-- Heart Rate Service -->
+    <string name="label_bodySensorLocation">Body Sensor Location</string>
+    <string name="heartRateServiceName">Heart Rate Service</string>
+    <string name="label_heartRateMeasurementValue">Heart Rate</string>
+    <string name="label_energyExpended">Energy Expended</string>
+    <string name="heartRateMeasurementValueInvalid">Please enter a number between 0 and 255</string>
+    <string name="energyExpendedInvalid">Please enter a number between 0 and 65535</string>
+    <string name="status_noLeAdv">LE Advertising is not available. Please pair with a device to be
+        discoverable.
+    </string>
+    <string name="menu_disconnect_devices">Disconnect Devices</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+</resources>

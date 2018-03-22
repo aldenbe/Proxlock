@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="proxLock.Pages.NoValidSettingsPage"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:proxLock.Pages"
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300">
+    <Grid>
+        <Button x:Name="connectButton" Content="Connect" HorizontalAlignment="Left" Margin="215,242,0,0" VerticalAlignment="Top" Width="75" Click="connectButton_Click"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Height="22" Margin="141,86,0,0" VerticalAlignment="Top" Width="149"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="24,33,0,0" TextWrapping="Wrap" Text="Please enter your windows password which will be encrypted and stored on your computer, then press the connect button." VerticalAlignment="Top"/>
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="100" Margin="24,137,0,0" TextWrapping="Wrap" Text="Before pressing the connect button, please ensure your android device is paired this computer. After pressing the button please press the connect button on your android device running the Proximity Lock application and select this computer from the list of paired devices." VerticalAlignment="Top" Width="261"/>
+    </Grid>
+</UserControl>
